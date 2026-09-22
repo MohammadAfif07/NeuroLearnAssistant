@@ -1,9 +1,54 @@
+# Environment / secrets
 .env
-__pycache__/
-*.pyc
+.envrc
+
+# Virtual environments
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
 .idea/
 .vscode/
+
+# Logs
 *.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
