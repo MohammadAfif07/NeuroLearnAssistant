@@ -1,0 +1,15 @@
+?? Concept: hello
+?? Explanation: ? Error:
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\NeuroLearnAssistant\neuro_assistant.py", line 47, in explain_concept
+    response = client.text_generation(prompt=prompt, max_new_tokens=150, temperature=0.7)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_client.py", line 2296, in text_generation
+    provider_helper = get_provider_helper(self.provider, task="text-generation", model=model_id)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_providers\__init__.py", line 191, in get_provider_helper
+    provider = next(iter(provider_mapping)).provider
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+

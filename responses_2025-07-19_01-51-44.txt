@@ -1,0 +1,45 @@
+?? You asked: hello hello how r u
+?? Answer: ? Error:
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\NeuroLearnAssistant\neuro_assistant.py", line 52, in explain_concept
+    response = client.chat_completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_client.py", line 887, in chat_completion
+    provider_helper = get_provider_helper(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_providers\__init__.py", line 191, in get_provider_helper
+    provider = next(iter(provider_mapping)).provider
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+
+?? You asked: Gravity
+?? Answer: ? Error:
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\NeuroLearnAssistant\neuro_assistant.py", line 52, in explain_concept
+    response = client.chat_completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_client.py", line 887, in chat_completion
+    provider_helper = get_provider_helper(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_providers\__init__.py", line 191, in get_provider_helper
+    provider = next(iter(provider_mapping)).provider
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+
+?? You asked: gravity gravity gravity gravity
+?? Answer: ? Error:
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\NeuroLearnAssistant\neuro_assistant.py", line 52, in explain_concept
+    response = client.chat_completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_client.py", line 887, in chat_completion
+    provider_helper = get_provider_helper(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Roaming\Python\Python311\site-packages\huggingface_hub\inference\_providers\__init__.py", line 191, in get_provider_helper
+    provider = next(iter(provider_mapping)).provider
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+
